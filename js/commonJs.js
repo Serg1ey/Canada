@@ -3,7 +3,7 @@ $( document ).ready(function( $ ) {
         width: 600,
         height: 570,
         orientation: 'vertical',
-        loop: false,
+        loop: true,
         arrows: true,
         buttons: false,
         thumbnailsPosition: 'right',
@@ -12,13 +12,13 @@ $( document ).ready(function( $ ) {
         breakpoints: {
             800: {
                 thumbnailsPosition: 'bottom',
-                thumbnailWidth: 270,
+                thumbnailWidth: 100,
                 thumbnailHeight: 100
             },
             500: {
                 thumbnailsPosition: 'bottom',
-                thumbnailWidth: 120,
-                thumbnailHeight: 50
+                thumbnailWidth: 80,
+                thumbnailHeight: 80,
             }
         }
     });
